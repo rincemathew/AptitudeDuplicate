@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MathsExplained">
+
+    <LinearLayout
+        android:layout_weight="10"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/name"
+            android:text="VALUES"
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="7dp"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:fadeScrollbars="true"
+        android:background="#ffffff"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/circletext1"
+            android:padding="7dp"
+            android:textSize="17dp"
+            android:text="circletext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/imageone"
+        android:src="@drawable/circlepic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/circletext2"
+            android:padding="7dp"
+            android:textSize="17dp"
+            android:text="circletext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/circletext3"
+            android:padding="7dp"
+            android:textSize="17dp"
+            android:text="circletext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+ </ScrollView>
+
+
+</LinearLayout>

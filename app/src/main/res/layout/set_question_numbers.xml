@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="5dp"
+    android:layout_gravity="center">
+    <TextView
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number of Questions"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_gravity="start"
+        />
+    <EditText
+        android:id="@+id/edtNOquestions"
+        android:padding="5dp"
+        android:editable="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10"
+        android:background="@android:color/transparent"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center" />
+    <SeekBar
+        android:id="@+id/QuestionseekBarID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:secondaryProgress="3"
+        android:progress="1"
+        android:max="3" >
+    </SeekBar>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time for One Question"
+        android:padding="5dp"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_gravity="start"
+        />
+
+    <LinearLayout
+        android:gravity="center"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/edtTIME"
+        android:editable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="90"
+        android:background="@android:color/transparent"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:gravity="center" />
+    <EditText
+        android:editable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" sec"
+        android:background="@android:color/transparent"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:gravity="center" />
+    </LinearLayout>
+    <SeekBar
+        android:id="@+id/seekbarTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:secondaryProgress="4"
+        android:progress="1"
+        android:max="4" >
+    </SeekBar>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageButton
+            android:id="@+id/cancel"
+            android:src="@drawable/ic_cancel_black_50dp"
+            android:backgroundTint="#00000000"
+            android:layout_width="wrap_content"
+            android:paddingRight="50dp"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:id="@+id/forward"
+            android:src="@drawable/ic_check_circle_black_50dp"
+            android:backgroundTint="#00000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

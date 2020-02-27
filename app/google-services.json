@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "466420972363",
+    "firebase_url": "https://aptitudeit-8ad22.firebaseio.com",
+    "project_id": "aptitudeit-8ad22",
+    "storage_bucket": "aptitudeit-8ad22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466420972363:android:dd2c58a10fabe8e6",
+        "android_client_info": {
+          "package_name": "com.melisa.melisa.aptitudeit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466420972363-big56t9htj9tc4aiugo5v6c03cd04f2e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.melisa.melisa.aptitudeit",
+            "certificate_hash": "cf8cfb7ce5142e175d524293564e49051a1ed6f2"
+          }
+        },
+        {
+          "client_id": "466420972363-pfjc4nptg3b69u0gr11qf9dnc65rt8tu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB3b2x3cC4OjZDu7mVYk2uj6f_mtVMR70"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466420972363-pfjc4nptg3b69u0gr11qf9dnc65rt8tu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

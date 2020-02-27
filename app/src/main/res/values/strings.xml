@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">AptitudeIT</string>
+    <string name="equations">EQUATIONS</string>
+    <string name="mathamaticalTips">Mensuration Formulae</string>
+    <string name="viewMore">VIEW MORE</string>
+    <string name="circle">Circle</string>
+    <string name="hexagon">Hexagon</string>
+    <string name="righttrangle">\tRight\nTriangle</string>
+    <string name="cirle">Circumference = π × Diameter\nCircumference = 2 × π × Radius\nDiameter = 2 × Radius\nArea = π Radius\u00B2</string>
+    <string name="cone">The Base Area = π × Radius\u00B2\nThe Side Area = π × Radius × Side Length\nSurface Area = π × Radius × (Radius + Side Length)\nVolume =  &#8531; π × Radius\u00B2 × Height </string>
+    <string name="cube">Surface Area = 6 × (Edge Length)\u00B2\nVolume = (Edge Length)\u00B3</string>
+    <string name="cylinder">Surface Area = 2 × π × Radius × (Radius+Height)\nVolume = π × Radius\u00B2 × Height</string>
+    <string name="hexagonex">Area = 3√3/2 × (Side)²\nPerimeter = 6 x Side</string>
+    <string name="prism">Surface area of a Prism = (2 × Base Area) + Lateral Surface Area\nVolume of a Prism = Base Area × Height</string>
+    <string name="righttriangle">Area = &#189; × Base × Height</string>
+    <string name="sphere">Volume = (4/3) × π × Radius³\nSurface Area = 4 × π × Radius²</string>
+    <string name="squre">Area of a Square = Side\u00B2\nPerimeter of a Square = 4 × Side</string>
+    <string name="trapezium">Area = ((Side1+Side2)/2) × Height</string>
+    <string name="triangle">Area = &#189; × Base × Height</string>
+    <string name="pooi" formatted="false"><![CDATA[]]> </string>
+    <string name="circletext1" formatted="false"><![CDATA[<h4>Circle:</h4>A circle is a simple closed shape. It is the set of all points in a plane that are at a given distance from a given point, the centre; equivalently it is the curve traced out by a point that moves so that its distance from a given point is constant.<br><br>*The <b>Radius</b> is the distance from the center outwards.<br>*The <b>Diameter</b> goes straight across the circle, through the center.<br>*The <b>Circumference</b> is the distance once around the circle.<br>
+<br>Tips:When we divide the <b>circumference</b> by the <strong>diameter</strong> we get <b>3.141592654</b>...  which is the number <b>π (Pi)</b>.<br>
+]]> </string>
+    <string name="circletext2" formatted="false"><![CDATA[<h3>Circumference = π × Diameter</h3><h3>Diameter = 2 × Radius</h3><h3>Circumference = 2 × π × Radius</h3><h3>Area = π × Radius\u00B2</h3>]]> </string>
+    <string name="circletext3" formatted="false"><![CDATA[<b>Example1:</b> You walk around a circle which has a diameter of 100m, how far have you walked?<br><b>Solution:</b>Distance walked = Circumference = π × 100m<br>= 314m (to the nearest m)<br><br>
+<b>Example2:</b>What is the area of a circle with radius of 1.2 m ?<br><b>Solution:</b>Area	= π × Radius\u00B2<br>= π × 1.22<br>= 3.14159... × (1.2 × 1.2)<br>	= 4.52 (to 2 decimals)]]> </string>
+    <string name="hexagon1" formatted="false"><![CDATA[<h4>Hexagon:</h4>A hexagon is a six-sided polygon or 6-gon. The total of the internal angles of any simple hexagon is 720°.<br><br>*Number of vertices: 6<br>*Number of edges: 6<br>*Internal angle: 120°]]> </string>
+    <string name="hexagon2" formatted="false"><![CDATA[<h3>Area: 3√3/2 × (side)²</h3><h3>Perimeter: 6 x side</h3>]]> </string>
+    <string name="hexagon3" formatted="false"><![CDATA[<b>Example 1:</b>: Find the area of regular hexagon whose side is 7 cm.<br><b>Solution:</b>Area of a hexagon equation is Area = (3×√3/2) × Side\u00B2<br>Here, side = 7 cm<br>Substitute the value of side in area formula,<br>Area = (3×√3/2) × 72<br>= 127. 31 cm\u00B2 .]]> </string>
+    <string name="righttriangle1" formatted="false"><![CDATA[<h4>Right triangle</h4>A right triangle or right-angled triangle is a triangle in which one angle is a right angle. The relation between the sides and angles of a right triangle is the basis for trigonometry. The side opposite the right angle is called the hypotenuse. The sides adjacent to the right angle are called legs.<br><br>*<b>The Pythagorean Theorem:</b>One of the best known mathematical formulas is Pythagorean Theorem, which provides us with the relationship between the sides in a right triangle. A right triangle consists of two legs and a hypotenuse. The two legs meet at a 90° angle and the hypotenuse is the longest side of the right triangle and is the side opposite the right angle.<br>The Pythagorean Theorem tells us that the relationship in every right triangle is:
+    a\u00B2+b\u00B2=c\u00B2.]]> </string>
+    <string name="righttriangle2" formatted="false"><![CDATA[<h3>Area = &#189; × Base × Height</h3>]]> </string>
+    <string name="righttriangle3" formatted="false"><![CDATA[<b>Example 1</b>: Find the length of the hypotenuse of the right triangle if the length of the other two sides is 5 cm and 6 cm. Also, calculate the area of the triangle.<br><b>Solution:</b>
+<br>Given,<br>a = 5 cm<br>b = 6 cm<br><br>using the Pythagoras formula,<br>c\u00B2 = a\u00B2 + b\u00B2<br>c\u00B2 = (5 cm)\u00B2 + (6 cm)\u00B2<br>c\u00B2 = 25 cm\u00B2 + 36 cm\u00B2<br>c\u00B2 = 61 cm\u00B2<br>c = 7.81 cm<br><br>Area of the right triangle<br>= ½ *a * b<br>= 1/2 * 5 cm * 6 cm<br>= 15 cm\u00B2]]> </string>
+    <string name="square1" formatted="false"><![CDATA[<h4>Square</h4> The square is a geometric shape that belongs to the quadrilateral family because it has 4 sides. The 4 sides are the same length and are parallel to each other.]]> </string>
+    <string name="square2" formatted="false"><![CDATA[<h3>Area of a Square = Side\u00B2</h3><h3>Perimeter of a Square = 4 × Side</h3>]]> </string>
+    <string name="square3" formatted="false"><![CDATA[<b>Example 1</b>Find the area of a square of side 5 cm.<br>
+<b>Solution:</b> A square of side 5 cm would look like as shown aside. <br>Formula for the area of a square is  (side)\u00B2.<br>Hence, Area of square = 5 cm x 5 cm  = 25 cm\u00B2
+<br><br><b>Example 2:</b> Find the area of a square of side 16 cm.<br><b>Solution:</b> Side of the square = s = 16 cm.<br>Area of the square  = (side)\u00B2.<br>= 16\u00B2 cm\u00B2<br>= 256 cm\u00B2]]> </string>
+    <string name="trapezium1" formatted="false"><![CDATA[<h4>Trapezium</h4>A convex quadrilateral with at least one pair of parallel sides is referred to as a trapezoid in American and Canadian English but as a trapezium in English outside North America.]]> </string>
+    <string name="trapezium2" formatted="false"><![CDATA[<h3>Area = ((Side1+Side2)/2) × Height</h3>Area = ((BC+AD)/2) × AE<br><br>Area: ½ x (sum of the lengths of the parallel sides) x perpendicular distance between parallel sides<br>]]> </string>
+    <string name="trapezium3" formatted="false"><![CDATA[<b>Example 1:</b>Two parallel sides of a trapezium are of lengths 27 cm and 19 cm respectively, and the distance between them is 14 cm. Find the area of the trapezium.<br><b>Solution:</b>Area of the trapezium<br>= ¹/₂ × (sum of parallel sides) × (distance between them) <br>= {¹/₂ × (27 + 19) × 14} cm²<br>= 322 cm²]]> </string>
+
+</resources>
