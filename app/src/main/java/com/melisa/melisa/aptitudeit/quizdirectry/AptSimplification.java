@@ -3,7 +3,7 @@ package com.melisa.melisa.aptitudeit.quizdirectry;
 public class AptSimplification {
     private String mQuestions [] = {
             "This is some test",
-            "simlification",
+            "",
             "",
             "",
             "",

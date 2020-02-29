@@ -3,26 +3,26 @@ package com.melisa.melisa.aptitudeit.quizdirectry;
 public class LogSymbolsAndNotations {
     private String mQuestions [] = {
             "This is some test",
-            "symbols and notations",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            " If - means *, * means +, + means / and / means -, then 40 * 12 + 3 - 6 / 60 = ?",
+            "If + means /, * means -, / means * and - means +, then 8 + 6 * 4 / 3 - 4 = ?",
+            "In a certain code language, '+' means '*', '*' means '-', '-' means '/' and '/' means '+'. 9 + 4 - 6 * 6 / 8",
+            "In a certain code language, '+' means '/', '/' means '*', '*' means '-', '-' means '+'.5 * 10 - 15 / 20 + 25 / 30",
+            "In a certain code language, '+' means '*', '*' means '-', '-' means '/' and '/' means '+'.10 + 10 * 10 - 10 / 10",
+            "In a certain code language, '+' means '/', '/' means '*', '*' means '-', '-' means '+'.(10 - 5) / 50 * (25 * 5) / 40",
+            " In a certain code language, '+' means '*', '*' means '-', '-' means '/' and '/' means '+'.16 * 4 / 4 + 14 - 2"
     };
 
 
 
     private String mChoices [][] = {
             {"Fruit", "Leaves", "Seeds","Leaves"},
-            {"","","",""},
-            {"","","",""},
-            {"","","",""},
-            {"","","",""},
-            {"","","",""},
-            {"","","",""},
-            {"","","",""}
+            {"9","16","44","None of these"},
+            {"-12","12","-20 / 3","20 / 3"},
+            {"8.5","0","8","10.7"},
+            {"210","240","355","245"},
+            {"109","10","19","11"},
+            {"-550","50","-50","550"},
+            {"56","28","40","112"}
     };
 
 
@@ -40,7 +40,7 @@ public class LogSymbolsAndNotations {
 
 
 
-    private String mCorrectAnswers[] = {"Leaves","","","","","","",""};
+    private String mCorrectAnswers[] = {"Leaves","None of these","-20 / 3","8","355","109","-50","40"};
 
 
     public int getLength()  {return mQuestions.length;}
