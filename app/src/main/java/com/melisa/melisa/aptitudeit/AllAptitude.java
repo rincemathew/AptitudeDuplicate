@@ -8,6 +8,7 @@ import android.view.View;
 import android.webkit.WebView;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class AllAptitude extends AppCompatActivity {
 
@@ -43,10 +44,15 @@ public class AllAptitude extends AppCompatActivity {
         takeATest.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if (value == 217){
+                    Toast.makeText(getApplicationContext(),"No data added", Toast.LENGTH_SHORT).show();
+                }else{
+
                     Intent intent1= new Intent(AllAptitude.this, Quiz2Activity.class);
                     int numbers=value;
                     intent1.putExtra("numbers", numbers);
                     startActivity(intent1);
+                }
             }
         });
 

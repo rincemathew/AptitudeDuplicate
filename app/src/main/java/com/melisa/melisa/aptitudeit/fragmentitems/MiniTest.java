@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.LinearLayout;
+import android.widget.Toast;
 
 import com.melisa.melisa.aptitudeit.AllAptitude;
 import com.melisa.melisa.aptitudeit.Quiz2Activity;
@@ -326,10 +327,11 @@ public class MiniTest extends AppCompatActivity {
         nonVerbel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent1= new Intent(MiniTest.this, Quiz2Activity.class);
-                int numbers = 217;
-                intent1.putExtra("numbers", numbers);
-                startActivity(intent1);
+//                Intent intent1= new Intent(MiniTest.this, Quiz2Activity.class);
+//                int numbers = 217;
+//                intent1.putExtra("numbers", numbers);
+//                startActivity(intent1);
+                Toast.makeText(getApplicationContext(),"No data added", Toast.LENGTH_SHORT).show();
             }
         });
         oddManOut.setOnClickListener(new View.OnClickListener() {

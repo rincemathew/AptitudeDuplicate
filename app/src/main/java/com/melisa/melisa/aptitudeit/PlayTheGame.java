@@ -100,11 +100,12 @@ public class PlayTheGame extends AppCompatActivity {
                     rightAns+=1;
            //         button1.setBackgroundResource(getResources().getColor(R.color.green));
                     button1.setBackgroundResource(R.drawable.right);
-
+                    ButtonDisable();
                     Utils.delay(secs, new Utils.DelayCallback() {
                         @Override
                         public void afterDelay() {
                             button1.setBackgroundResource(R.drawable.normal);
+                            ButtonEnable();
                             setQuestion(i);
 
                         }
@@ -116,10 +117,12 @@ public class PlayTheGame extends AppCompatActivity {
                     wrongAns+=1;
                     scoreTextView.setText("Score : " + score + "");
                     button1.setBackgroundResource(R.drawable.wrong);
+                    ButtonDisable();
                     Utils.delay(secs, new Utils.DelayCallback() {
                         @Override
                         public void afterDelay() {
                             button1.setBackgroundResource(R.drawable.normal);
+                            ButtonEnable();
                             setQuestion(i);
 
                         }
@@ -135,11 +138,12 @@ public class PlayTheGame extends AppCompatActivity {
                     score += 10;
                     rightAns+=1;
                     button2.setBackgroundResource(R.drawable.right);
-
+                    ButtonDisable();
                     Utils.delay(secs, new Utils.DelayCallback() {
                         @Override
                         public void afterDelay() {
                             button2.setBackgroundResource(R.drawable.normal);
+                            ButtonEnable();
                             setQuestion(i);
                         }
                     });
@@ -150,10 +154,12 @@ public class PlayTheGame extends AppCompatActivity {
                     wrongAns+=1;
                     scoreTextView.setText("Score : " + score + "");
                     button2.setBackgroundResource(R.drawable.wrong);
+                    ButtonDisable();
                     Utils.delay(secs, new Utils.DelayCallback() {
                         @Override
                         public void afterDelay() {
                             button2.setBackgroundResource(R.drawable.normal);
+                            ButtonEnable();
                             setQuestion(i);
 
                         }
@@ -169,11 +175,12 @@ public class PlayTheGame extends AppCompatActivity {
                     score += 10;
                     rightAns+=1;
                     button3.setBackgroundResource(R.drawable.right);
-
+                    ButtonDisable();
                     Utils.delay(secs, new Utils.DelayCallback() {
                         @Override
                         public void afterDelay() {
                             button3.setBackgroundResource(R.drawable.normal);
+                            ButtonEnable();
                             setQuestion(i);
                         }
                     });
@@ -184,10 +191,12 @@ public class PlayTheGame extends AppCompatActivity {
                     wrongAns+=1;
                     scoreTextView.setText("Score : " + score + "");
                     button3.setBackgroundResource(R.drawable.wrong);
+                    ButtonDisable();
                     Utils.delay(secs, new Utils.DelayCallback() {
                         @Override
                         public void afterDelay() {
                             button3.setBackgroundResource(R.drawable.normal);
+                            ButtonEnable();
                             setQuestion(i);
 
                         }
@@ -203,11 +212,12 @@ public class PlayTheGame extends AppCompatActivity {
                     score += 10;
                     rightAns+=1;
                     button4.setBackgroundResource(R.drawable.right);
-
+                    ButtonDisable();
                     Utils.delay(secs, new Utils.DelayCallback() {
                         @Override
                         public void afterDelay() {
                             button4.setBackgroundResource(R.drawable.normal);
+                            ButtonEnable();
                             setQuestion(i);
                         }
                     });
@@ -218,10 +228,12 @@ public class PlayTheGame extends AppCompatActivity {
                     wrongAns+=1;
                     scoreTextView.setText("Score : " + score + "");
                     button4.setBackgroundResource(R.drawable.wrong);
+                    ButtonDisable();
                     Utils.delay(secs, new Utils.DelayCallback() {
                         @Override
                         public void afterDelay() {
                             button4.setBackgroundResource(R.drawable.normal);
+                            ButtonEnable();
                             setQuestion(i);
 
                         }
@@ -276,6 +288,19 @@ public class PlayTheGame extends AppCompatActivity {
 
     }
 
+    public void ButtonDisable(){
+        button1.setEnabled(false);
+        button2.setEnabled(false);
+        button3.setEnabled(false);
+        button4.setEnabled(false);
+    }
+
+    public void ButtonEnable(){
+        button1.setEnabled(true);
+        button2.setEnabled(true);
+        button3.setEnabled(true);
+        button4.setEnabled(true);
+    }
 
     private void greenlite(){
         if (button1.getText().toString().equals(answerArray.getAnswer(questionNumber.get(i)))) {
