@@ -211,4 +211,10 @@ public class CalculatorExpert extends AppCompatActivity {
 
     }
 
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        firstTimer.cancel();
+    }
 }
